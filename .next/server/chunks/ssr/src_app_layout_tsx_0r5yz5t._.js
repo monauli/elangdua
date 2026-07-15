@@ -1,0 +1,3 @@
+module.exports=[27572,a=>{"use strict";var b=a.i(7997);let c={title:"Elang Dua — Cita Rasa Legendaris",description:"Company profile dan product showcase Elang Dua.",keywords:["Elang Dua","kecap","Singkawang"],openGraph:{title:"Elang Dua — Cita Rasa Legendaris",description:"Rasa pilihan yang menemani dapur Indonesia sejak 1965.",images:["/og-image.svg"]},twitter:{card:"summary_large_image"},robots:{index:!0,follow:!0},alternates:{canonical:process.env.NEXT_PUBLIC_SITE_URL||"http://localhost:3000"}};a.s(["default",0,function({children:a}){return(0,b.jsx)("html",{lang:"id",children:(0,b.jsx)("body",{children:a})})},"metadata",0,c])},50645,a=>{a.n(a.i(27572))}];
+
+//# sourceMappingURL=src_app_layout_tsx_0r5yz5t._.js.map

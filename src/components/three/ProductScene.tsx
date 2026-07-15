@@ -1,0 +1,8 @@
+'use client';
+import {Canvas, useFrame} from '@react-three/fiber';
+import {ContactShadows, Environment} from '@react-three/drei';
+import {useRef} from 'react';
+import * as THREE from 'three';
+
+function ProductModel(){const group=useRef<THREE.Group>(null);useFrame((_,delta)=>{if(group.current) group.current.rotation.y+=delta*.18});return <group ref={group} position={[0,-.25,0]}><mesh castShadow position={[0,1.35,0]}><cylinderGeometry args={[.28,.28,.22,32]}/><meshStandardMaterial color="#d8ad55" metalness={.8} roughness={.22}/></mesh><mesh castShadow position={[0,1.12,0]}><cylinderGeometry args={[.34,.34,.2,32]}/><meshStandardMaterial color="#5c3b13" metalness={.55} roughness={.3}/></mesh><mesh castShadow position={[0,0,0]}><capsuleGeometry args={[.72,.95,12,32]}/><meshPhysicalMaterial color="#691515" roughness={.25} metalness={.08} clearcoat={.7} clearcoatRoughness={.15} transmission={.03}/></mesh><mesh position={[0,.05,.71]}><boxGeometry args={[.88,.85,.035]}/><meshStandardMaterial color="#f5ebdd" roughness={.7}/></mesh><mesh position={[0,.05,.735]}><boxGeometry args={[.68,.015,.012]}/><meshStandardMaterial color="#d8ad55"/></mesh></group>}
+export default function ProductScene(){return <Canvas shadows dpr={[1,1.5]} camera={{position:[0,0.2,4.4],fov:34}} gl={{antialias:true,alpha:true}}><ambientLight intensity={1.5}/><directionalLight castShadow position={[3,4,4]} intensity={4} color="#fff1d0"/><pointLight position={[-3,1,2]} intensity={2} color="#d8ad55"/><Environment preset="studio"/><ProductModel/><ContactShadows position={[0,-1.15,0]} opacity={.42} scale={3.4} blur={2.5} far={2}/></Canvas>}

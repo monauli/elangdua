@@ -1,0 +1,3 @@
+module.exports=[3363,a=>{"use strict";var b=a.i(7997);a.s(["default",0,function(){return(0,b.jsx)("main",{className:"min-h-screen grid place-items-center bg-[#4e0e0e] text-white p-6 text-center",children:(0,b.jsxs)("div",{children:[(0,b.jsx)("p",{className:"text-[#d2a84a] uppercase tracking-[.3em] text-sm",children:"Elang Dua"}),(0,b.jsx)("h1",{className:"text-6xl mt-4",children:"404"}),(0,b.jsx)("p",{className:"mt-4 text-white/70",children:"Halaman yang Anda cari tidak ditemukan."}),(0,b.jsx)("a",{href:"/",className:"inline-block mt-8 rounded-full bg-[#d2a84a] px-6 py-3 text-[#4e0e0e] font-bold",children:"Kembali ke beranda"})]})})}])},17537,a=>{a.n(a.i(3363))}];
+
+//# sourceMappingURL=src_app_not-found_tsx_1863-sq._.js.map
