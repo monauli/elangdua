@@ -782,72 +782,86 @@ _c1 = Button;
 function Hero() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
         id: "beranda",
-        className: "hero-contrast noise relative min-h-[90vh] overflow-hidden bg-gradient-to-br from-[#f5ebdd] via-[#f5ebdd] to-[#851b1b] px-5 pb-20 pt-36 text-[#1c1210] md:px-12",
+        className: "hero-contrast noise relative isolate min-h-[92vh] overflow-hidden bg-[#f6ecdd] px-5 pb-16 pt-32 text-[#1c1210] md:px-12 md:pb-20 md:pt-40",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "hero-glow absolute -right-32 top-20 h-[560px] w-[560px] rounded-full bg-[#851b1b] opacity-70 blur-3xl"
+                className: "pointer-events-none absolute -right-40 top-0 h-[620px] w-[620px] rounded-full bg-[#8f1d1d]/20 blur-3xl"
             }, void 0, false, {
                 fileName: "[project]/src/components/sections.tsx",
                 lineNumber: 4,
-                columnNumber: 224
+                columnNumber: 203
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "relative mx-auto grid max-w-[1280px] items-center gap-8 lg:grid-cols-[1.05fr_.95fr]",
+                className: "pointer-events-none absolute -left-40 bottom-0 h-80 w-80 rounded-full bg-[#d2a84a]/20 blur-3xl"
+            }, void 0, false, {
+                fileName: "[project]/src/components/sections.tsx",
+                lineNumber: 4,
+                columnNumber: 324
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "relative mx-auto grid max-w-[1280px] items-center gap-10 lg:grid-cols-[.94fr_1.06fr] lg:gap-14",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "hero-copy relative z-10 max-w-2xl",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "hero-in mb-6 flex items-center gap-3 text-xs font-bold uppercase tracking-[.28em] text-[#851b1b]",
+                                className: "hero-in mb-6 flex items-center gap-3 text-[11px] font-bold uppercase tracking-[.3em] text-[#851b1b]",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "h-px w-10 bg-[#d8ad55]"
+                                        className: "h-px w-10 bg-[#d2a84a]"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections.tsx",
                                         lineNumber: 4,
-                                        columnNumber: 608
+                                        columnNumber: 715
                                     }, this),
-                                    "Sejak 1965"
+                                    "Warisan rasa dari Singkawang"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/sections.tsx",
                                 lineNumber: 4,
-                                columnNumber: 496
+                                columnNumber: 600
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: "hero-in hero-delay-1 max-w-3xl text-5xl leading-[.98] md:text-7xl",
+                                className: "hero-in hero-delay-1 max-w-3xl text-[clamp(3.25rem,7vw,6.8rem)] leading-[.9] tracking-[-.045em]",
                                 children: [
                                     "Cita rasa ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("em", {
-                                        className: "text-[#d8ad55]",
+                                        className: "text-[#b67822]",
                                         children: "legendaris"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections.tsx",
                                         lineNumber: 4,
-                                        columnNumber: 756
+                                        columnNumber: 911
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                         fileName: "[project]/src/components/sections.tsx",
                                         lineNumber: 4,
-                                        columnNumber: 802
+                                        columnNumber: 957
                                     }, this),
-                                    "dari Singkawang."
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "text-[#4e0e0e]",
+                                        children: "dalam setiap tetes."
+                                    }, void 0, false, {
+                                        fileName: "[project]/src/components/sections.tsx",
+                                        lineNumber: 4,
+                                        columnNumber: 962
+                                    }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/sections.tsx",
                                 lineNumber: 4,
-                                columnNumber: 664
+                                columnNumber: 789
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "hero-in hero-delay-2 mt-7 max-w-lg text-base leading-7 text-[#3f2a24] md:text-lg",
+                                className: "hero-in hero-delay-2 mt-8 max-w-lg text-base leading-7 text-[#553c32] md:text-lg",
                                 children: [
                                     __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$data$2f$company$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["company"].shortDescription,
-                                    " Produk bumbu pilihan untuk hidangan keluarga dan usaha kuliner."
+                                    " Kecap manis pilihan untuk hidangan keluarga dan usaha kuliner yang ingin meninggalkan rasa."
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/sections.tsx",
                                 lineNumber: 4,
-                                columnNumber: 828
+                                columnNumber: 1026
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "hero-in hero-delay-3 mt-9 flex flex-wrap gap-3",
@@ -857,45 +871,95 @@ function Hero() {
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections.tsx",
                                         lineNumber: 4,
-                                        columnNumber: 1082
+                                        columnNumber: 1308
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Button, {
                                         href: "#kontak",
                                         secondary: true,
-                                        children: "Hubungi Kami"
+                                        children: "Jadi Mitra"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections.tsx",
                                         lineNumber: 4,
-                                        columnNumber: 1111
+                                        columnNumber: 1337
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/sections.tsx",
                                 lineNumber: 4,
-                                columnNumber: 1018
+                                columnNumber: 1244
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "hero-in hero-delay-3 mt-10 flex flex-wrap gap-x-6 gap-y-3 text-[10px] font-bold uppercase tracking-[.18em] text-[#6d4f42]",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "flex items-center gap-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "h-1.5 w-1.5 rounded-full bg-[#b67822]"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/sections.tsx",
+                                                lineNumber: 4,
+                                                columnNumber: 1576
+                                            }, this),
+                                            "Sejak 1965"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/sections.tsx",
+                                        lineNumber: 4,
+                                        columnNumber: 1534
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "flex items-center gap-2",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "h-1.5 w-1.5 rounded-full bg-[#b67822]"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/sections.tsx",
+                                                lineNumber: 4,
+                                                columnNumber: 1692
+                                            }, this),
+                                            "Dibuat di Singkawang"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/sections.tsx",
+                                        lineNumber: 4,
+                                        columnNumber: 1650
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/sections.tsx",
+                                lineNumber: 4,
+                                columnNumber: 1395
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections.tsx",
                         lineNumber: 4,
-                        columnNumber: 445
+                        columnNumber: 549
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "hero-product relative flex min-h-[440px] items-center justify-center rounded-[48px] bg-gradient-to-br from-[#851b1b]/70 to-[#4a0b0b]/95",
+                        className: "hero-product relative flex min-h-[430px] items-center justify-center rounded-[40px] bg-[radial-gradient(circle_at_52%_42%,rgba(210,168,74,.34),transparent_25%),linear-gradient(145deg,#8f1d1d,#3b0808)] shadow-[0_28px_80px_rgba(78,14,14,.25)] md:min-h-[570px] md:rounded-[56px]",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "orbit absolute h-64 w-64 rounded-full border border-[#d8ad55]/50 md:h-96 md:w-96"
+                                className: "absolute inset-3 rounded-[34px] border border-white/10 md:inset-5 md:rounded-[48px]"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections.tsx",
                                 lineNumber: 4,
-                                columnNumber: 1330
+                                columnNumber: 2081
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "absolute h-44 w-44 rounded-full bg-[#d8ad55]/20 blur-2xl"
+                                className: "orbit absolute h-64 w-64 rounded-full border border-[#d8ad55]/50 md:h-[27rem] md:w-[27rem]"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/sections.tsx",
                                 lineNumber: 4,
-                                columnNumber: 1429
+                                columnNumber: 2183
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "absolute h-44 w-44 rounded-full bg-[#d8ad55]/25 blur-2xl md:h-64 md:w-64"
+                            }, void 0, false, {
+                                fileName: "[project]/src/components/sections.tsx",
+                                lineNumber: 4,
+                                columnNumber: 2292
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
                                 className: "hero-bottle absolute inset-0",
@@ -931,66 +995,98 @@ function Hero() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(ProductScene, {}, void 0, false, {
                                         fileName: "[project]/src/components/sections.tsx",
                                         lineNumber: 4,
-                                        columnNumber: 1680
+                                        columnNumber: 2559
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "absolute inset-0 opacity-25",
+                                        className: "pointer-events-none absolute inset-0 opacity-25",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$Bottle$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Bottle"], {}, void 0, false, {
                                             fileName: "[project]/src/components/sections.tsx",
                                             lineNumber: 4,
-                                            columnNumber: 1740
+                                            columnNumber: 2639
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/sections.tsx",
                                         lineNumber: 4,
-                                        columnNumber: 1695
+                                        columnNumber: 2574
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$PouringEffect$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["PouringEffect"], {}, void 0, false, {
                                         fileName: "[project]/src/components/sections.tsx",
                                         lineNumber: 4,
-                                        columnNumber: 1755
+                                        columnNumber: 2654
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/sections.tsx",
                                 lineNumber: 4,
-                                columnNumber: 1504
+                                columnNumber: 2383
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                className: "absolute bottom-4 right-5 max-w-[150px] text-right text-[10px] uppercase tracking-[.2em] text-white/60",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "absolute bottom-5 left-5 flex items-center gap-3 text-[10px] uppercase tracking-[.18em] text-white/60 md:bottom-7 md:left-7",
                                 children: [
-                                    "Produk 3D",
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "grid h-8 w-8 place-items-center rounded-full border border-[#d2a84a]/60 text-[#d2a84a]",
+                                        children: "↗"
+                                    }, void 0, false, {
                                         fileName: "[project]/src/components/sections.tsx",
                                         lineNumber: 4,
-                                        columnNumber: 1914
+                                        columnNumber: 2824
                                     }, this),
-                                    "mudah diganti"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        children: [
+                                            "Geser untuk",
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                fileName: "[project]/src/components/sections.tsx",
+                                                lineNumber: 4,
+                                                columnNumber: 2954
+                                            }, this),
+                                            "menjelajah"
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/src/components/sections.tsx",
+                                        lineNumber: 4,
+                                        columnNumber: 2937
+                                    }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/sections.tsx",
                                 lineNumber: 4,
-                                columnNumber: 1784
+                                columnNumber: 2683
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "absolute bottom-5 right-5 max-w-[130px] text-right text-[10px] uppercase tracking-[.18em] text-white/50 md:bottom-7 md:right-7",
+                                children: [
+                                    "Elang Dua",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                        fileName: "[project]/src/components/sections.tsx",
+                                        lineNumber: 4,
+                                        columnNumber: 3136
+                                    }, this),
+                                    "Kecap Manis"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/src/components/sections.tsx",
+                                lineNumber: 4,
+                                columnNumber: 2982
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/sections.tsx",
                         lineNumber: 4,
-                        columnNumber: 1177
+                        columnNumber: 1788
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/sections.tsx",
                 lineNumber: 4,
-                columnNumber: 344
+                columnNumber: 437
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute bottom-8 left-5 text-[10px] uppercase tracking-[.3em] text-[#851b1b]/60 md:left-12",
+                className: "absolute bottom-7 left-5 text-[10px] uppercase tracking-[.3em] text-[#851b1b]/60 md:left-12",
                 children: "Rasa yang tinggal di ingatan"
             }, void 0, false, {
                 fileName: "[project]/src/components/sections.tsx",
                 lineNumber: 4,
-                columnNumber: 1951
+                columnNumber: 3171
             }, this)
         ]
     }, void 0, true, {

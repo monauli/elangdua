@@ -7,7 +7,8 @@ __turbopack_context__.v((parentImport) => {
   "static/chunks/node_modules_three_build_three_module_03rsyo6.js",
   "static/chunks/node_modules_three_build_three_module_1_wgwg8.js",
   "static/chunks/node_modules_@react-three_fiber_dist_03of3rn._.js",
-  "static/chunks/node_modules_00nkmw5._.js",
+  "static/chunks/node_modules_three-stdlib_1s59m88._.js",
+  "static/chunks/node_modules_0_dys-w._.js",
   "static/chunks/src_components_three_ProductScene_tsx_1cqhq61._.js",
   "static/chunks/src_components_three_ProductScene_tsx_15pm2jm._.js"
 ].map((chunk) => __turbopack_context__.l(chunk))).then(() => {
